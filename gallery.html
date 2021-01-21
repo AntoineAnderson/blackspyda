@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/slider.css"/>
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
+    <!-- greensock cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--Jquery-->
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script src="script.js"></script>
+<title>SypdaMusic</title>
+</head>
+<body>
+    <div class="nav-container">
+
+      
+       
+        <header class="nav-link1"  data-aos="fade-right">
+            <a href="index.html" class="logo">Blackspydamusic</a>
+        </header>
+
+        <div class="nav-link2"  data-aos="fade-down" data-aos-duration="700">
+            <img src="img/blackspider.svg" alt="Spider logo">
+        </div>
+
+       
+   
+
+        <div class="nav-links3" data-aos="fade-left">
+            <ul>
+              <li><a href="https://twitter.com/blackspyda"><img src="img/twitter.svg" alt="twitter"></a></li>
+              <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="facebook"></a></li>
+              <li><a href="https://www.instagram.com/blackspydarec/"><img src="img/instagram.svg" alt="instagram"></a></li>
+              <li><a href="https://www.spotify.com/jm/why-not-available/"><img src="img/spotify.svg" alt="spotify"></a></li>
+            </ul>
+          </div>             
+ </div>
+    
+  <div class="nav-cont2">
+      <nav class="nav-link4" data-aos="fade-up" data-aos-duration="700">
+
+          <ul>
+              <li><a href="index.html"> <span>Home</span></a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="#" class="break"></a></li>
+              <li><a href="donate.html">Donate</a></li>
+              
+          </ul>
+      </nav>
+  </div>
+
+  <div class="whitespace"></div>
+
+<div class="mosaic">
+
+    <div class="mosaic-desc">
+        <h1 data-aos="fade-right" data-aos-duration="1300">Songs <span id="h1-color">Mixed </span> and <span id="h1-color">Mastered</span> by Blackspyda</h1>
+        <h3 data-aos="fade-right" data-aos-duration="1350">Browse Here or <a href="gallerygrid.html">See All</a></h3> 
+        <p data-aos="fade-right" data-aos-duration="1350">Here's a select few of songs you may already know, but what you <br> 
+        may not know is that I've worked on these songs as the <br>
+    Mixing Engineer or the Mastering Engineer. Sometimes both. <br>
+I'm proud to have worked on each of these songs with very talented <br> artist even
+more proud to be able to present them to you, our amazing fans. </p>
+    </div>
+
+    <div class="mosaic-grid" data-aos="fade-left" data-aos-duration="1350">
+        <div class="container1">
+            <img src="img/coverart/Alkaline Cree.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Alkaline Deh Suh.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Alkaline Read Dawgs.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Daddy1 Bro Gad.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+
+          <div class="container1">
+            <img src="img/coverart/Jahmiel ft Shensea Tell Me.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Knaxx Flavor.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Masicka Drug Lawd.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Masicka Man Fi Di Mission.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+
+          <div class="container1">
+            <img src="img/coverart/Masicka Victory.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Skillibeng Yk Dat guh.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Skillibeng Torpedo.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+          <div class="container1">
+            <img src="img/coverart/Twani Price ft Skillibeng Honda Remix.jpeg" style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+          </div>
+
+          
+          <div id="modal01" class="modal" onclick="this.style.display='none'">
+            <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <div class="modal-content">
+              <img id="img01" style="max-width:100%">
+            </div>
+          </div>
+    </div>
+</div>
+
+
+
+
+<script src="modal.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</body>
+</html>
+
